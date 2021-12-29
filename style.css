@@ -1,0 +1,103 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 64px 57px 57px 57px;
+    max-width: 920px;
+    padding: 5px;
+}
+
+.page {
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.red-text {
+    font-weight: bold;
+    color: #FF3232;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    margin-left: -20px;
+}
+
+.jon-snow {
+    height: 392px;
+    max-width: 273px;
+    display:block;
+    margin: 18.5px 18.5px 0 18.5px;
+    /* border: 1px solid white ; */
+}
+
+.pic {
+    background-color: #1A142D;
+    height: 656px;
+    max-width: 310px;
+    color: white;
+    text-align:center;
+}
+
+.info {
+    max-width: 467px;
+    margin-left: 67px;
+    align-items: start;
+}
+
+.main-info {
+    margin-top: 48px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    position: relative;
+    height: 23px;
+    width: 23px;
+    margin: 0 0 0 7.88px;
+    border: none;
+}
+
+.icon:hover {
+    bottom: 5px;
+}
+
+.first-paragraph {
+    margin-top: 0;
+}
+
+.all-photos {
+    display: flex;
+    justify-content: space-between;
+    /* width: 1024px; */
+    margin-top: 87px;
+    font-size: 12px;
+}
+
+.photo {
+    height: 206px;
+}
+
+.photo-text {
+    position: relative;
+    background: #1A142D;
+    color: white;
+    margin-top: -28px;
+    /* height: 26px; */
+    vertical-align: center;
+    padding: 5px 5px 5px 15px;
+}
