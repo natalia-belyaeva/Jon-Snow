@@ -38,7 +38,6 @@ ul {
     max-width: 273px;
     display:block;
     margin: 18.5px 18.5px 0 18.5px;
-    /* border: 1px solid white ; */
 }
 
 .pic {
@@ -93,11 +92,16 @@ ul {
 }
 
 .photo-text {
-    position: relative;
+    position: absolute;
     background: #1A142D;
     color: white;
     margin-top: -28px;
-    /* height: 26px; */
-    vertical-align: center;
+    width: 206px;
     padding: 5px 5px 5px 15px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.photo-and-text:hover .photo-text {
+    display: block;
 }
